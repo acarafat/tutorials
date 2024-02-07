@@ -5,8 +5,8 @@ library(ggtree)
 library(phangorn)
 library(dplyr)
 
-tree1 <- read.tree('Tanglegram/tree1.nwk')
-tree2 <- read.tree('Tanglegram/tree2')
+tree1 <- read.tree('tree1.nwk')
+tree2 <- read.tree('tree2.nwk')
 
 meta <- read.table('Tanglegram/meta.csv', sep=',', header=T)
 
